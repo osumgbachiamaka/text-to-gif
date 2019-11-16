@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser')
 const gifRoute = require('./gifRoute')
+const messageRoute = require('./message')
 // const dotenv = require('dotenv');
 const app = express();
 
@@ -21,6 +22,7 @@ app.use(bodyParser.json());
 
 
 app.use('/gif', gifRoute)
+app.use('/message', messageRoute)
 app.use('/', (req, res) => {
     res.redirect('/gif')
 })
