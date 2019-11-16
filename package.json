@@ -4,7 +4,8 @@
   "description": "An app that get text and retrieves gif images",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:compile": "node-sass --watch --include-path sass public/scss/message.scss public/css/message.css"
   },
   "author": "Chiamaka Osumgba",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "ejs": "^2.7.2",
     "express": "^4.17.1",
     "http": "0.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
   }
 }

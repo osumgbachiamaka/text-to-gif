@@ -1,0 +1,71 @@
+@import "./variables.scss";
+
+body {
+    background: $white;
+    font-family: $font;
+}
+.container {
+    background: $background;
+    color: $white;
+    width: 80%;
+    min-height: 400px;
+
+    .message--col-md-4 {
+        width: 28%;
+        min-height: 300px;
+        float: left;
+        margin: 20px;
+        border-radius: 10px;
+
+        .message--inner{
+            padding: 10px;
+        }
+
+        .message--btn{
+            background: $white;
+            height: 40px;
+            min-width: 70px;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 1px 2px 1px rgba(43, 39, 39, 0.85);
+        }
+
+        .message--btn--text{
+            font-size: 18px;
+            margin: 15px;
+        }
+
+        .message--detail{
+            font-size: 16px;
+            font-weight: 100;
+            margin: 20px 0;
+        }
+    }
+
+    .message__warning{
+        background-color: $warning;
+
+        .message--btn--text{
+            color: $warning;
+        }
+    }
+    .message__error{
+        background-color: $error;
+
+        .message--btn--text{
+            color: $error;
+        }
+    }
+    .message__success{
+        background-color: $success;
+
+        .message--btn--text{
+            color: $success;
+        }
+    }
+}
+.message__center{
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+body {
+  background: white;
+  font-family: Nunito; }
+
+.container {
+  background: #e8e5e5;
+  color: white;
+  width: 80%;
+  min-height: 400px; }
+  .container .message--col-md-4 {
+    width: 28%;
+    min-height: 300px;
+    float: left;
+    margin: 20px;
+    border-radius: 10px; }
+    .container .message--col-md-4 .message--inner {
+      padding: 10px; }
+    .container .message--col-md-4 .message--btn {
+      background: white;
+      height: 40px;
+      min-width: 70px;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 20px;
+      border: none;
+      box-shadow: 1px 2px 1px rgba(43, 39, 39, 0.85); }
+    .container .message--col-md-4 .message--btn--text {
+      font-size: 18px;
+      margin: 15px; }
+    .container .message--col-md-4 .message--detail {
+      font-size: 16px;
+      font-weight: 100;
+      margin: 20px 0; }
+  .container .message__warning {
+    background-color: #f896a6; }
+    .container .message__warning .message--btn--text {
+      color: #f896a6; }
+  .container .message__error {
+    background-color: #992121; }
+    .container .message__error .message--btn--text {
+      color: #992121; }
+  .container .message__success {
+    background-color: #58bb58; }
+    .container .message__success .message--btn--text {
+      color: #58bb58; }
+
+.message__center {
+  text-align: center; }
