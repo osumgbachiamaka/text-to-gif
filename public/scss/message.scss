@@ -4,11 +4,24 @@ body {
     background: $white;
     font-family: $font;
 }
+ @media only screen and (min-width: 954px) {
+    .container{
+
+        .message--col-md-4{
+            width: 50%;
+
+        }
+    }
+}
 .container {
     background: $background;
     color: $white;
     width: 80%;
     min-height: 400px;
+
+    @media only screen and (max-width: 720px) {
+        width: 100%;
+    }
 
     .message--col-md-4 {
         width: 28%;
@@ -16,6 +29,19 @@ body {
         float: left;
         margin: 20px;
         border-radius: 10px;
+
+        @media only screen and (max-width: 954px) {
+            width: 38%;
+        }
+        @media only screen and (max-width: 720px) {
+            width: 48%;
+        }
+        @media only screen and (max-width: 520px) {
+            width: 58%;
+        }
+        @media only screen and (max-width: 400px) {
+            width: 80%;
+        }
 
         .message--inner{
             padding: 10px;

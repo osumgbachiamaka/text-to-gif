@@ -2,17 +2,36 @@ body {
   background: white;
   font-family: Nunito; }
 
+@media only screen and (min-width: 954px) {
+  .container .message--col-md-4 {
+    width: 50%; } }
+
 .container {
   background: #e8e5e5;
   color: white;
   width: 80%;
   min-height: 400px; }
+  @media only screen and (max-width: 720px) {
+    .container {
+      width: 100%; } }
   .container .message--col-md-4 {
     width: 28%;
     min-height: 300px;
     float: left;
     margin: 20px;
     border-radius: 10px; }
+    @media only screen and (max-width: 954px) {
+      .container .message--col-md-4 {
+        width: 38%; } }
+    @media only screen and (max-width: 720px) {
+      .container .message--col-md-4 {
+        width: 48%; } }
+    @media only screen and (max-width: 520px) {
+      .container .message--col-md-4 {
+        width: 58%; } }
+    @media only screen and (max-width: 400px) {
+      .container .message--col-md-4 {
+        width: 80%; } }
     .container .message--col-md-4 .message--inner {
       padding: 10px; }
     .container .message--col-md-4 .message--btn {
