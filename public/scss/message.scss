@@ -4,15 +4,7 @@ body {
     background: $white;
     font-family: $font;
 }
- @media only screen and (min-width: 954px) {
-    .container{
 
-        .message--col-md-4{
-            width: 50%;
-
-        }
-    }
-}
 .container {
     background: $background;
     color: $white;

@@ -1,7 +1,7 @@
 body{
-    background: green;
+    background: #80005f;
 }
-.container{
+.gif--translate{
     width: 40%;
     min-height: 500px;
     background: rgb(255, 255, 255);
@@ -56,6 +56,12 @@ body{
     visibility: visible;
     opacity: 1;
   }
-.url{
 
+/*search*/
+.search--column{
+  width: 28%;
+  height: 200px;
+  float: left;
+  margin: 20px;
+  position: relative;
 }
